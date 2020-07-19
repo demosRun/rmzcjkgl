@@ -1,0 +1,25 @@
+<template lang="pug">
+.page-1
+  img.so.so-0(src="@|48.png|" go="page2")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      console.log('sadasd')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.page-1 {
+  background-image: url('@|38.jpg|');
+}
+.so-0 {
+  left: 217px;
+  top: 838px;
+  z-index: 1;
+}
+
+</style>

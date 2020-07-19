@@ -1,0 +1,89 @@
+<template lang="pug">
+.page3
+  img.so.bg(src="@|51.png|")
+  //- 输入框
+  input.so.so-0
+  input.so.so-1
+  input.so.so-2
+  input.so.so-3
+  input.so.so-4
+  //- 提交按钮
+  img.so.so-5(src="@|72.png|")
+</template>
+<script>
+module.exports = {
+}
+</script>
+<style lang="less">
+.bg {
+  left: 58px;
+  top: 207px;
+  z-index: 0;
+}
+.so-0 {
+  left: 62px;
+  top: 489px;
+  width: 616px;
+  height: 70px;
+  z-index: 4;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 29px;
+  padding: 0 10px;
+  background-image: url('@|37.png|');
+}
+.so-1 {
+  left: 62px;
+  top: 637px;
+  width: 616px;
+  height: 70px;
+  z-index: 3;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 29px;
+  padding: 0 10px;
+  background-image: url('@|37.png|');
+}
+.so-2 {
+  left: 62px;
+  top: 784px;
+  width: 616px;
+  height: 70px;
+  z-index: 2;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 29px;
+  padding: 0 10px;
+  background-image: url('@|37.png|');
+}
+.so-3 {
+  left: 62px;
+  top: 932px;
+  width: 616px;
+  height: 70px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 29px;
+  padding: 0 10px;
+  background-image: url('@|37.png|');
+}
+.so-4 {
+  left: 62px;
+  top: 1079px;
+  width: 616px;
+  height: 70px;
+  z-index: 0;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 29px;
+  padding: 0 10px;
+  background-image: url('@|37.png|');
+}
+.so-5 {
+  left: 214px;
+  top: 1202px;
+  z-index: 0;
+}
+
+</style>

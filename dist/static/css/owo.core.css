@@ -1,0 +1,195 @@
+body, html, .page, .page-box {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+img {
+  border: none;
+}
+
+[route-active="false"] {
+  display: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.page-1 {
+  background-image: url('../resource/38.jpg');
+}
+
+.page-1 .so-0 {
+  left: 217px;
+  top: 838px;
+  z-index: 1;
+}
+.page2 .so-0 {
+  left: 69px;
+  top: 244px;
+  z-index: 0;
+}
+
+.page2 .swiper-container,
+.page2 .swiper-wrapper,
+.page2 .swiper-slide {
+  position: relative;
+  width: 100%;
+  height: 1508px;
+}
+
+.page2 .so-2 {
+  left: 48px;
+  top: 395px;
+  z-index: 0;
+}
+
+.page2 .so-1 {
+  left: 121px;
+  top: 332px;
+  z-index: 0;
+}
+
+.page2 .so-3 {
+  left: 25px;
+  top: 333px;
+  z-index: 0;
+}
+
+.page2 .so-4-0 {
+  left: 55px;
+  top: 333px;
+  z-index: 2;
+}
+
+.page2 .so-4-1 {
+  left: 48px;
+  top: 950px;
+  z-index: 1;
+}
+
+.page2 .so-4-2 {
+  left: 388px;
+  top: 948px;
+  z-index: 0;
+}
+.page3 .bg {
+  left: 58px;
+  top: 207px;
+  z-index: 0;
+}
+
+.page3 .so-0 {
+  left: 62px;
+  top: 489px;
+  width: 616px;
+  height: 70px;
+  z-index: 4;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 29px;
+  padding: 0 10px;
+  background-image: url('../resource/37.png');
+}
+
+.page3 .so-1 {
+  left: 62px;
+  top: 637px;
+  width: 616px;
+  height: 70px;
+  z-index: 3;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 29px;
+  padding: 0 10px;
+  background-image: url('../resource/37.png');
+}
+
+.page3 .so-2 {
+  left: 62px;
+  top: 784px;
+  width: 616px;
+  height: 70px;
+  z-index: 2;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 29px;
+  padding: 0 10px;
+  background-image: url('../resource/37.png');
+}
+
+.page3 .so-3 {
+  left: 62px;
+  top: 932px;
+  width: 616px;
+  height: 70px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 29px;
+  padding: 0 10px;
+  background-image: url('../resource/37.png');
+}
+
+.page3 .so-4 {
+  left: 62px;
+  top: 1079px;
+  width: 616px;
+  height: 70px;
+  z-index: 0;
+  background-repeat: no-repeat;
+  border: none;
+  font-size: 29px;
+  padding: 0 10px;
+  background-image: url('../resource/37.png');
+}
+
+.page3 .so-5 {
+  left: 214px;
+  top: 1202px;
+  z-index: 0;
+}
+
+
+
+
