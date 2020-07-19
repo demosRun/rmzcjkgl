@@ -1,5 +1,6 @@
 <template lang="pug">
 .page2
+  img.so.logo(src="@|35.png|")
   .swiper-container
     .swiper-wrapper
       .swiper-slide
@@ -61,6 +62,11 @@ module.exports = {
 .so-4-2 {
   left: 388px;
   top: 948px;
+  z-index: 0;
+}
+.logo {
+  left: 52px;
+  top: 221px;
   z-index: 0;
 }
 

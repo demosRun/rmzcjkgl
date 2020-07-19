@@ -113,6 +113,12 @@ li {
   top: 948px;
   z-index: 0;
 }
+
+.page2 .logo {
+  left: 52px;
+  top: 221px;
+  z-index: 0;
+}
 .page3 .bg {
   left: 58px;
   top: 207px;
