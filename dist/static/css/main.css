@@ -58,3 +58,28 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 .page {
   background-image: url('../resource/bg.jpg');
 }
+
+.page-1 {
+  background-image: url('../resource/38.jpg');
+}
+
+.logo {
+  position: absolute;
+  top: 140px;
+  left: 50px;
+}
+.text {
+  position: absolute;
+  bottom: 140px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.logo-text {
+  position: absolute;
+  bottom: 140px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

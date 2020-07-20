@@ -55,8 +55,17 @@ li {
   list-style: none;
 }
 
-.page-1 {
-  background-image: url('../resource/38.jpg');
+[o-animation="shrink"] {
+  -webkit-animation: shrink 1s linear alternate infinite;
+  animation: shrink 1s linear alternate infinite;
+}
+@-webkit-keyframes shrink{
+  0%{-webkit-transform:scale(0.9);}
+  100%{-webkit-transform:scale(1);}
+}
+@keyframes shrink{
+  0%{transform:scale(0.9);}
+  100%{transform:scale(1);}
 }
 
 .page-1 .so-0 {
@@ -80,13 +89,13 @@ li {
 
 .page2 .so-2 {
   left: 48px;
-  top: 395px;
+  top: 345px;
   z-index: 0;
 }
 
 .page2 .so-1 {
   left: 121px;
-  top: 332px;
+  top: 355px;
   z-index: 0;
 }
 
@@ -98,25 +107,19 @@ li {
 
 .page2 .so-4-0 {
   left: 55px;
-  top: 333px;
+  top: 345px;
   z-index: 2;
 }
 
 .page2 .so-4-1 {
   left: 48px;
-  top: 950px;
+  top: 1000px;
   z-index: 1;
 }
 
 .page2 .so-4-2 {
   left: 388px;
-  top: 948px;
-  z-index: 0;
-}
-
-.page2 .logo {
-  left: 52px;
-  top: 221px;
+  top: 1000px;
   z-index: 0;
 }
 .page3 .bg {
@@ -198,4 +201,35 @@ li {
 
 
 
+/* 页面切换动画 */
+.o-page-moveToLeft {
+	-webkit-animation: moveToLeft .6s ease both;
+	-moz-animation: moveToLeft .6s ease both;
+	animation: moveToLeft .6s ease both;
+}
+
+@-webkit-keyframes moveToLeft {
+	to { -webkit-transform: translateX(-100%); }
+}
+@-moz-keyframes moveToLeft {
+	to { -moz-transform: translateX(-100%); }
+}
+@keyframes moveToLeft {
+	to { transform: translateX(-100%); }
+}
+.o-page-moveFromRight {
+	-webkit-animation: moveFromRight .6s ease both;
+	-moz-animation: moveFromRight .6s ease both;
+	animation: moveFromRight .6s ease both;
+}
+
+@-webkit-keyframes moveFromRight {
+	from { -webkit-transform: translateX(100%); }
+}
+@-moz-keyframes moveFromRight {
+	from { -moz-transform: translateX(100%); }
+}
+@keyframes moveFromRight {
+	from { transform: translateX(100%); }
+}
 

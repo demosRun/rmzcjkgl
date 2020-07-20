@@ -1,6 +1,9 @@
 <template lang="pug">
 .page-1
-  img.so.so-0(src="@|48.png|" go="page2")
+  //- logo和底部文字
+  img.logo(src="@|logo.png|")
+  img.text(src="@|text.png|")
+  img.so.so-0(src="@|48.png|" go="page2//moveToLeft/moveFromRight/true/moveToRight/moveFromLeft" o-animation="shrink")
 </template>
 
 <script>
@@ -13,9 +16,6 @@
 
 
 <style lang="less">
-.page-1 {
-  background-image: url('@|38.jpg|');
-}
 .so-0 {
   left: 217px;
   top: 838px;
